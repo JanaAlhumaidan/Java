@@ -8,11 +8,11 @@ public class L2T3 {
         int count = 0;
 
         while (count < 3) {
-            System.out.print("Enter a non-empty name: ");
+            System.out.print("Enter a name: ");
             String name = input.nextLine().trim();
             
             if (name.isEmpty()) {
-                System.out.println("Empty name entered. Please enter a non-empty name.");
+                System.out.println("Empty name entered. Please enter a name.");
             } else {
                 names[count] = name;
                 count++;
